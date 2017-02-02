@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'lessonapp.apps.LessonappConfig',
+    'lessonapp.apps.LessonappConfig', # подключаем наше прилажение
 ]
 
 MIDDLEWARE = [

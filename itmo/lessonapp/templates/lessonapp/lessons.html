@@ -2,6 +2,6 @@
 {% block content %}
 <h1>Lessons</h1>
 {% for lesson in lessons %}
-    <li><a href="{% url 'itmo:lesson' lesson.id %}">{{lesson}}</a></li>
+    <li><a href="{% url 'lessonapp:lesson' lesson.id %}">{{lesson}}</a></li>
 {% endfor %}
 {% endblock %}

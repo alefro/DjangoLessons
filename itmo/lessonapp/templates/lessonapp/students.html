@@ -1,5 +1,6 @@
 {% extends "lessonapp/base-template.html" %}
 {% block content %}
+<h1>Students</h1>
 {% for student in students %}
     <li><a href="{% url 'lessonapp:student' student.id %}">{{student}}</a></li>
 {% endfor %}

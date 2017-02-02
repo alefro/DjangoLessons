@@ -18,5 +18,5 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^lessonapp/', include('lessonapp.urls')),
+    url(r'^lessonapp/', include('lessonapp.urls')), # подключаем роутинг, который будет отвечать за наше приложение
 ]
